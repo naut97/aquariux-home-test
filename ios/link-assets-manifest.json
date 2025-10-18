@@ -1,0 +1,53 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/GoogleSans-Black.ttf",
+      "sha1": "5aa40c037e757df6a620cec507e0288d03c52878"
+    },
+    {
+      "path": "src/assets/fonts/GoogleSans-BlackItalic.ttf",
+      "sha1": "509c85c8c8e6601b6704c3b240c5ceb2a5b7b5f0"
+    },
+    {
+      "path": "src/assets/fonts/GoogleSans-Bold.ttf",
+      "sha1": "63a439c803ab84b9f6427a01d63ddb12527925d7"
+    },
+    {
+      "path": "src/assets/fonts/GoogleSans-BoldItalic.ttf",
+      "sha1": "0efce2fcb268d70ac21d0f5d75525cca11fe4b69"
+    },
+    {
+      "path": "src/assets/fonts/GoogleSans-Italic.ttf",
+      "sha1": "e47a04bae6be6ceb910f56fa2220f636014a27db"
+    },
+    {
+      "path": "src/assets/fonts/GoogleSans-Light.ttf",
+      "sha1": "96dad5a0a5710077569dbc2fa81eae22e91c15fb"
+    },
+    {
+      "path": "src/assets/fonts/GoogleSans-LightItalic.ttf",
+      "sha1": "efb02a700ac7e613ea1cd12f25888f92816b333a"
+    },
+    {
+      "path": "src/assets/fonts/GoogleSans-Medium.ttf",
+      "sha1": "7691cf957a24f4be176bc9c7895c2909f914214a"
+    },
+    {
+      "path": "src/assets/fonts/GoogleSans-MediumItalic.ttf",
+      "sha1": "339ab7f30ad8b9047befea00510015d9ceec553f"
+    },
+    {
+      "path": "src/assets/fonts/GoogleSans-Regular.ttf",
+      "sha1": "e67db00713e957798fbac2b87ad5c0d18d2dcf32"
+    },
+    {
+      "path": "src/assets/fonts/GoogleSans-Thin.ttf",
+      "sha1": "916776ea24931f06862eee144ebea15e6568b5fc"
+    },
+    {
+      "path": "src/assets/fonts/GoogleSans-ThinItalic.ttf",
+      "sha1": "59097b852af23143edc33b9da9f02a7f4faae884"
+    }
+  ]
+}

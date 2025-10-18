@@ -1,0 +1,40 @@
+{
+  "ALERT": {
+    "NETWORK_ERROR": {
+      "TITLE": "Network Error",
+      "MESSAGE": "Something went wrong with your network!"
+    }
+  },
+  "SEARCH": {
+    "INPUT_PLACEHOLDER": "Search...",
+    "RESULTS_SEARCH": "Results for '{{keyword}}'",
+    "SORT_BY": "Sort by",
+    "SUBMIT_BUTTON": "Search",
+    "END_OF_RESULTS": "- You are in the end of results -",
+    "LOAD_MORE": "Load More"
+  },
+  "RECOMMENDATION": {
+    "TOP_RATED": "Top Rated",
+    "UPCOMING": "Upcoming",
+    "POPULAR": "Popular",
+    "SEE_ALL": "See all"
+  },
+  "MOVIE": {
+    "RUNTIME": "{{time}} mins",
+    "OVERVIEW": "Overview",
+    "RECOMMENDATION": "Recommendation",
+    "CASTS": "Casts ({number})",
+    "REVIEWS": "Reviews",
+    "EXPAND": "More",
+    "COLLAPSE": "Collapse",
+    "REMOVE_FROM_WATCHLIST": "Remove From Watchlist",
+    "ADD_TO_WATCHLIST": "Add To Watchlist",
+    "ADDED_TO_WATCHLIST": "Added to watchlist",
+    "REMOVED_FROM_WATCHLIST": "Removed from watchlist"
+  },
+  "WATCHLIST": {
+    "TITLE": "My Watchlist",
+    "FILTER_BY": "Filter by:",
+    "ORDER": "Order:"
+  }
+}

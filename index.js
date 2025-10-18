@@ -1,6 +1,7 @@
 /**
  * @format
  */
+import '@/utils/localization';
 
 import { AppRegistry } from 'react-native';
 import App from './App';

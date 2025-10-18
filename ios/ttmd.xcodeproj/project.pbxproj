@@ -10,21 +10,45 @@
 		00E07E1D3C5C3C6AB8930004 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		0C80B921A6F3F58F76C31292 /* libPods-ttmd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-ttmd.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2CF569F004724B7E8A42C915 /* GoogleSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91B7711ED61D41EDA268C326 /* GoogleSans-Bold.ttf */; };
+		4F193A9464A948A895112292 /* GoogleSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49E1170C05894A73B1B85601 /* GoogleSans-Regular.ttf */; };
+		59E8B906AE8345CDB99275C0 /* GoogleSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C830DF556AAE4593A3C588F7 /* GoogleSans-MediumItalic.ttf */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		766C6ACBE4584A5A8369FCEB /* GoogleSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3810D39F7BC243C2B562F954 /* GoogleSans-Medium.ttf */; };
+		79BEBC03435E48B9BDE65B90 /* GoogleSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63C52137BE194A858CB67FA3 /* GoogleSans-Black.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		826B9D49E5144047BBC7A3A4 /* GoogleSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F95C09F9238C4843926B7BC9 /* GoogleSans-BoldItalic.ttf */; };
+		843C787706BB4EFBB2F077E5 /* GoogleSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C421ECDA6C54618BC147C04 /* GoogleSans-Light.ttf */; };
+		A794B018CF1146DFAC696464 /* GoogleSans-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CD627CA0A7B4561A2D5D8E5 /* GoogleSans-ThinItalic.ttf */; };
+		AA38718F87624BA5B256A998 /* GoogleSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 338F61D4B5CA4721A4771248 /* GoogleSans-Italic.ttf */; };
+		AFD449190BF6406AB8A3E958 /* GoogleSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE8BDE7C92D4002B8357D7B /* GoogleSans-LightItalic.ttf */; };
+		E5D7E0F8630A4119A519960D /* GoogleSans-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B31728BBC3574CED9B484D62 /* GoogleSans-BlackItalic.ttf */; };
+		F59A8AC3D63E4A478031E5C7 /* GoogleSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63953CCC912C4BC5BC0E513A /* GoogleSans-Thin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FE8BDE7C92D4002B8357D7B /* GoogleSans-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GoogleSans-LightItalic.ttf"; path = "../src/assets/fonts/GoogleSans-LightItalic.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* ttmd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ttmd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ttmd/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ttmd/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = ttmd/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		338F61D4B5CA4721A4771248 /* GoogleSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GoogleSans-Italic.ttf"; path = "../src/assets/fonts/GoogleSans-Italic.ttf"; sourceTree = "<group>"; };
+		3810D39F7BC243C2B562F954 /* GoogleSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GoogleSans-Medium.ttf"; path = "../src/assets/fonts/GoogleSans-Medium.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-ttmd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ttmd.debug.xcconfig"; path = "Target Support Files/Pods-ttmd/Pods-ttmd.debug.xcconfig"; sourceTree = "<group>"; };
+		3CD627CA0A7B4561A2D5D8E5 /* GoogleSans-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GoogleSans-ThinItalic.ttf"; path = "../src/assets/fonts/GoogleSans-ThinItalic.ttf"; sourceTree = "<group>"; };
+		49E1170C05894A73B1B85601 /* GoogleSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GoogleSans-Regular.ttf"; path = "../src/assets/fonts/GoogleSans-Regular.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-ttmd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ttmd.release.xcconfig"; path = "Target Support Files/Pods-ttmd/Pods-ttmd.release.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-ttmd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ttmd.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63953CCC912C4BC5BC0E513A /* GoogleSans-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GoogleSans-Thin.ttf"; path = "../src/assets/fonts/GoogleSans-Thin.ttf"; sourceTree = "<group>"; };
+		63C52137BE194A858CB67FA3 /* GoogleSans-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GoogleSans-Black.ttf"; path = "../src/assets/fonts/GoogleSans-Black.ttf"; sourceTree = "<group>"; };
+		6C421ECDA6C54618BC147C04 /* GoogleSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GoogleSans-Light.ttf"; path = "../src/assets/fonts/GoogleSans-Light.ttf"; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ttmd/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ttmd/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91B7711ED61D41EDA268C326 /* GoogleSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GoogleSans-Bold.ttf"; path = "../src/assets/fonts/GoogleSans-Bold.ttf"; sourceTree = "<group>"; };
+		B31728BBC3574CED9B484D62 /* GoogleSans-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GoogleSans-BlackItalic.ttf"; path = "../src/assets/fonts/GoogleSans-BlackItalic.ttf"; sourceTree = "<group>"; };
+		C830DF556AAE4593A3C588F7 /* GoogleSans-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GoogleSans-MediumItalic.ttf"; path = "../src/assets/fonts/GoogleSans-MediumItalic.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F95C09F9238C4843926B7BC9 /* GoogleSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GoogleSans-BoldItalic.ttf"; path = "../src/assets/fonts/GoogleSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +99,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				8F23697FA9474A36B3F5177F /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -87,6 +112,26 @@
 				13B07F961A680F5B00A75B9A /* ttmd.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8F23697FA9474A36B3F5177F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				63C52137BE194A858CB67FA3 /* GoogleSans-Black.ttf */,
+				B31728BBC3574CED9B484D62 /* GoogleSans-BlackItalic.ttf */,
+				91B7711ED61D41EDA268C326 /* GoogleSans-Bold.ttf */,
+				F95C09F9238C4843926B7BC9 /* GoogleSans-BoldItalic.ttf */,
+				338F61D4B5CA4721A4771248 /* GoogleSans-Italic.ttf */,
+				6C421ECDA6C54618BC147C04 /* GoogleSans-Light.ttf */,
+				0FE8BDE7C92D4002B8357D7B /* GoogleSans-LightItalic.ttf */,
+				3810D39F7BC243C2B562F954 /* GoogleSans-Medium.ttf */,
+				C830DF556AAE4593A3C588F7 /* GoogleSans-MediumItalic.ttf */,
+				49E1170C05894A73B1B85601 /* GoogleSans-Regular.ttf */,
+				63953CCC912C4BC5BC0E513A /* GoogleSans-Thin.ttf */,
+				3CD627CA0A7B4561A2D5D8E5 /* GoogleSans-ThinItalic.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -161,6 +206,18 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				00E07E1D3C5C3C6AB8930004 /* PrivacyInfo.xcprivacy in Resources */,
+				79BEBC03435E48B9BDE65B90 /* GoogleSans-Black.ttf in Resources */,
+				E5D7E0F8630A4119A519960D /* GoogleSans-BlackItalic.ttf in Resources */,
+				2CF569F004724B7E8A42C915 /* GoogleSans-Bold.ttf in Resources */,
+				826B9D49E5144047BBC7A3A4 /* GoogleSans-BoldItalic.ttf in Resources */,
+				AA38718F87624BA5B256A998 /* GoogleSans-Italic.ttf in Resources */,
+				843C787706BB4EFBB2F077E5 /* GoogleSans-Light.ttf in Resources */,
+				AFD449190BF6406AB8A3E958 /* GoogleSans-LightItalic.ttf in Resources */,
+				766C6ACBE4584A5A8369FCEB /* GoogleSans-Medium.ttf in Resources */,
+				59E8B906AE8345CDB99275C0 /* GoogleSans-MediumItalic.ttf in Resources */,
+				4F193A9464A948A895112292 /* GoogleSans-Regular.ttf in Resources */,
+				F59A8AC3D63E4A478031E5C7 /* GoogleSans-Thin.ttf in Resources */,
+				A794B018CF1146DFAC696464 /* GoogleSans-ThinItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
