@@ -1,97 +1,102 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# TTMD — React Native TMDB Client
 
-# Getting Started
+A React Native application for browsing and managing movies from The Movie Database (TMDB): discover, search, view details, and manage your personal watchlist.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+IMPORTANT: Configure your environment before running the app.
+- You must input your ACCESS_TOKEN in the .env file.
 
-## Step 1: Start Metro
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+## Features
+- Discover movies by category (Now Playing, Popular, Upcoming)
+- Sort and filter results
+- Search with infinite scroll
+- Movie details and posters
+- Manage personal Watchlist (add/remove)
+- Localization-ready (i18n)
 
-To start the Metro dev server, run the following command from the root of your React Native project:
 
-```sh
-# Using npm
-npm start
+## Tech Stack
+- React Native 0.82, React 19
+- TypeScript
+- Redux Toolkit + redux-persist
+- Axios for API calls
+- react-native-dotenv for environment variables
+- i18next for localization
 
-# OR using Yarn
-yarn start
-```
 
-## Step 2: Build and run your app
+## Prerequisites
+- Node.js >= 20
+- Yarn (recommended)
+- Xcode (for iOS) or Android Studio + Android SDK (for Android)
+- CocoaPods (for iOS): gem install cocoapods
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
 
-### Android
+## Environment Variables
+The app reads environment variables via react-native-dotenv and configures Axios with a bearer token for TMDB requests.
 
-```sh
-# Using npm
-npm run android
+Create a .env file in the project root (already present in this repo). Then set values as follows:
 
-# OR using Yarn
-yarn android
-```
+ACCESS_TOKEN=YOUR_TMDB_V4_READ_ACCESS_TOKEN
 
-### iOS
+BASE_URL=https://api.themoviedb.org/
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+API_VERSION=3
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+Notes:
+- ACCESS_TOKEN is the TMDB v4 API Read Access Token (not the v3 API key). You can create or find it in your TMDB account settings: Settings > API > API Read Access Token (v4 auth).
+- The app attaches this token to the Authorization header: Authorization: Bearer <ACCESS_TOKEN>.
+- BASE_URL and API_VERSION default to the TMDB API root and v3 routes (e.g., https://api.themoviedb.org/3). Keep them unless you know what you are doing.
 
-```sh
-bundle install
-```
 
-Then, and every time you update your native dependencies, run:
+## Installation
+1) Install dependencies
+- yarn install
 
-```sh
-bundle exec pod install
-```
+2) iOS only — install pods
+- cd ios && pod install && cd ..
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+3) Set up your environment file
+- Open .env and input your ACCESS_TOKEN
 
-```sh
-# Using npm
-npm run ios
 
-# OR using Yarn
-yarn ios
-```
+## Run the App
+Start the Metro bundler (optional, scripts will start it if needed):
+- yarn start
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+Run on Android (emulator/device):
+- yarn android
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+Run on iOS (simulator):
+- yarn ios
 
-## Step 3: Modify your app
+If you change the .env file, stop Metro and rebuild the native app so new env values are picked up.
 
-Now that you have successfully run the app, let's make changes!
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+## Testing
+- yarn test
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+## Project Structure (high level)
+- src/apis: Axios instance and API endpoints
+- src/hooks: Reusable hooks (e.g., account detail, infinite fetch)
+- src/screens: App screens and feature-specific hooks
+- src/assets/locales: i18n translation resources
+- src/stores: Redux slices and store setup
 
-## Congratulations! :tada:
+Key files
+- src/apis/axiosInstance.ts — configures Axios base URL and Authorization header from .env (BASE_URL, ACCESS_TOKEN)
+- src/apis/endpoints.ts — TMDB endpoints mapping
+- src/hooks/useAccountDetail.ts — account and watchlist actions
+- src/screens/Home/hooks/useSearchMovies.ts — discover/search movies with sorting and pagination
 
-You've successfully run and modified your React Native App. :partying_face:
 
-### Now what?
+## Troubleshooting
+- No results / 401 Unauthorized: Ensure ACCESS_TOKEN is correctly set in .env and is a valid TMDB v4 Read Access Token.
+- Network error alert: Check internet connectivity or TMDB API availability.
+- iOS build issues: Run pod install in ios directory and ensure Xcode command line tools are installed.
+- Android build issues: Ensure ANDROID_HOME/SDK is set and the emulator or device is connected.
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
 
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+## Licensing and Credits
+- This project uses the TMDB API but is not endorsed or certified by TMDB.
+- Movie data and images are provided by TMDB.

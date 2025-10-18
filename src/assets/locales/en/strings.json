@@ -23,7 +23,7 @@
     "RUNTIME": "{{time}} mins",
     "OVERVIEW": "Overview",
     "RECOMMENDATION": "Recommendation",
-    "CASTS": "Casts ({number})",
+    "CASTS": "Casts ({{number}})",
     "REVIEWS": "Reviews",
     "EXPAND": "More",
     "COLLAPSE": "Collapse",

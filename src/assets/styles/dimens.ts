@@ -1,4 +1,4 @@
-import { Dimensions, Platform } from 'react-native';
+import { Dimensions } from 'react-native';
 import { initialWindowMetrics } from 'react-native-safe-area-context';
 import get from 'lodash/get';
 
@@ -12,10 +12,7 @@ const AppDimensions = {
   screenHeight,
   windowWidth,
   windowHeight,
-  bottomHeight:
-    Platform.OS === 'ios' && StaticBottomInset > 0
-      ? 55 + StaticBottomInset
-      : 55,
+  bottomHeight: StaticBottomInset > 0 ? 55 + StaticBottomInset : 55,
 };
 
 export default AppDimensions;
